@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    animation-name: dayNight;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.sun{
+    position: absolute;
+    width: 200px;
+    top: 20px;
+    left: 20%;
+    animation-name: sunMove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.moon{
+    visibility: visible;
+    position: absolute;
+    width: 200px;
+    right: 800px;
+    top: 500px;
+    animation-name: moonMove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.cloud{
+    position: absolute;
+    width: 400px;
+    top: 80px;
+    right: 70px;
+    animation-name: cloudMove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.city{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
+.road{
+    position: absolute;
+    width: 100%;
+    top: 500px;
+}
+.rose-car{
+    position: absolute;
+    width: 300px;
+    top: 900px;
+    left: -300px;
+    animation-name: roseCar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.red-car{
+    position: absolute;
+    width: 300px;
+    top: 720px;
+    right: -300px;
+    animation-name: redCar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes dayNight{
+    0%{
+
+    }
+    50%{
+        background-color: black;
+    }
+
+}
+@keyframes sunMove{
+    0%{
+        
+    }
+    50%{
+        top: 500px;
+        left: 800px;
+    }
+    
+}
+@keyframes moonMove{
+    0%{
+        
+    }
+    50%{
+        top: 20px;
+        right: 60px;
+    }
+}
+@keyframes cloudMove{
+    0%{
+
+    }
+    50%{
+        right: 1600px;
+    }
+}
+@keyframes roseCar{
+    from{
+
+    }
+    to{
+        left: 2200px;
+    }
+}
+@keyframes redCar{
+    from{
+
+    }
+    to{
+        right: 2200px;
+    }
+}
