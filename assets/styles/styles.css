@@ -14,8 +14,8 @@ body{
 .sun{
     position: absolute;
     width: 200px;
-    top: 20px;
-    left: 20%;
+    top: 5vh;
+    left: 10%;
     animation-name: sunMove;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -24,8 +24,8 @@ body{
     visibility: visible;
     position: absolute;
     width: 200px;
-    right: 800px;
-    top: 500px;
+    right: 10%;
+    top: 50vh;
     animation-name: moonMove;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -33,8 +33,8 @@ body{
 .cloud{
     position: absolute;
     width: 400px;
-    top: 80px;
-    right: 70px;
+    top: 10vh;
+    right: 10%;
     animation-name: cloudMove;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -42,17 +42,17 @@ body{
 .city{
     position: absolute;
     width: 100%;
-    top: 100px;
+    top: 6vh;
 }
 .road{
     position: absolute;
     width: 100%;
-    top: 500px;
+    top: 43vh;
 }
 .rose-car{
     position: absolute;
     width: 300px;
-    top: 900px;
+    top: 80vh;
     left: -300px;
     animation-name: roseCar;
     animation-duration: 10s;
@@ -61,7 +61,7 @@ body{
 .red-car{
     position: absolute;
     width: 300px;
-    top: 720px;
+    top: 63vh;
     right: -300px;
     animation-name: redCar;
     animation-duration: 10s;
@@ -81,8 +81,8 @@ body{
         
     }
     50%{
-        top: 500px;
-        left: 800px;
+        top: 50vh;
+        left: 50%;
     }
     
 }
@@ -91,8 +91,8 @@ body{
         
     }
     50%{
-        top: 20px;
-        right: 60px;
+        top: 5vh;
+        right: 10%;
     }
 }
 @keyframes cloudMove{
@@ -100,7 +100,7 @@ body{
 
     }
     50%{
-        right: 1600px;
+        right: 70%;
     }
 }
 @keyframes roseCar{
@@ -108,7 +108,7 @@ body{
 
     }
     to{
-        left: 2200px;
+        left: 110%;
     }
 }
 @keyframes redCar{
@@ -116,6 +116,6 @@ body{
 
     }
     to{
-        right: 2200px;
+        right: 110%;
     }
 }
